@@ -1,0 +1,44 @@
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: rgb(36, 39, 58); /* catppuccin macchiato */
+  color: rgb(238, 238, 238);
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a:link {
+  color: rgb(198, 160, 246);
+}
+
+a:visited {
+  color: rgb(245, 189, 230);
+}
+
+.center {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.language {
+  font-weight: bold;
+}
+
+.card {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1.5rem 0;
+}
+
+.tiny-image {
+  height: 150px;
+  display: block;
+  margin: 1rem auto;
+}
